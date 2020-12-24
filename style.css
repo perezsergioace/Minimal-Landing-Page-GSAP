@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/* nav */
+
+nav {
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    flex: 1;
+}
+
+.menu-left {
+    text-align: left;
+}
+
+.menu-center {
+    text-align: center;
+}
+
+.menu-right {
+    text-align: right;
+}
+
+.menu-link {
+    padding: 0 30px;
+}
+
+/* hero img */
+
+.wrapper-img {
+    overflow: hidden;
+    position: relative;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 30%;
+    height: 90vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box {
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
