@@ -69,3 +69,28 @@ img {
     left: 0;
     z-index: 2;
 }
+
+/* header */
+.header {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 0;
+    mix-blend-mode: overlay;
+}
+
+.header-1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.header-2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
